@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<meta HTTP-EQUIV="expires" CONTENT="0"> 
+<title>DSA2022秋经管学院 | Wels</title>	
+
+<link rel="stylesheet" href="https://derwels.github.io/styles/main.css">
+<script type="text/javascript">
+function getCSS()
+{
+        datetoday = new Date();
+        timenow=datetoday.getTime();
+        datetoday.setTime(timenow);
+        thehour = datetoday.getHours();
+
+            display = "https://derwels.github.io/media/css/night.css";
+
+            display = "https://derwels.github.io/media/css/night.css";   
+      
+            display = "https://derwels.github.io/media/css/day.css";
+
+            display = "https://derwels.github.io/media/css/day.css";
+      
+
+var css = '<';
+        css+='link rel="stylesheet" href='+display+' \/';
+        css+='>';
+        document.write(css);
+}
+</script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+SC:300|Montserrat&display=swap" rel="stylesheet">
+<link href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://derwels.github.io/media/scripts/script.js'></script>
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
+
+<script type="text/javascript">
+window.onload=getCSS();
+</script>
+
+
+ 	
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        
+			
+		<header id="header" class="site-header" 
+		
+		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://wels.oss-cn-hangzhou.aliyuncs.com/md/QQ图片20221109084436.jpg)"
+		
+		>
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://derwels.github.io" rel="home">Wels</a></h1>
+										
+					<h2 class="site-description">w(ﾟДﾟ)w</h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<ul id="" class="dove">
+		 
+     			
+<li>
+	 
+	<a  href="/"> 首页</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/archives"> 归档</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/post/about"> 关于</a></li>
+	
+    
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav>
+						<div class="jingge">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        </header>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+				
+<article id="post-70" class="post-70 post type-post status-publish format-standard hentry category-5 tag-10 tag-9 tag-11">
+
+	
+	                      
+		<div class="entry-content">
+			<h1 class="wow swing entry-title">DSA2022秋经管学院</h1>
+<div class="entry-meta">
+<div class="wow bounce">
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2022-11-06 22:44:32" itemprop="datePublished" pubdate="">2022-11-06</time></i>
+	          </div>
+			
+</span>
+													 
+		</div>
+                  
+			<div class="wow slideInLeft entry-summary song">
+				<h1 id="线性表">线性表</h1>
+<p>算法：<strong>（带不带头结点的）顺序表、（双向、循环）链表的插入、查找、输出全部、逆置，约瑟夫问题</strong><br>
+<strong>堆栈和队列</strong></p>
+<pre><code class="language-java">Node head;
+Node current;//当前节点位置，元素个数会更简单
+int size;
+</code></pre>
+<h1 id="栈和队列">栈和队列</h1>
+<p><strong>顺序队列的真溢出和假溢出</strong><br>
+顺序循环队列的队空队满判断：少用一个存储空间，队尾加一等于队头为队满；设置标志位，出队tag=0，入队tag=1；设置计数位，入队加一，出队减一。<br>
+<strong>括号匹配问题，中缀后缀表达式转换计算问题。</strong></p>
+<h1 id="数组集合和矩阵">数组集合和矩阵</h1>
+<p>一维数组和二维数组的存储映像公式。<br>
+数组的向量MyVector类，只支持对象数组，自动扩充长度，添加，操作基于复制。<br>
+集合{1,2,3}添加、删除、属于、包含、相等、元素个数、非空否<br>
+集合的MySet，在MyVector上改造<br>
+Matrix的设计，加法。<br>
+对称矩阵（只存储上下三角形的副本）<br>
+稀疏矩阵，用三元组，三元组链表</p>
+<h1 id="递归">递归</h1>
+<p>阶乘，汉诺塔问题，<strong>递归过程和运行时栈</strong>，<strong>回溯法解迷宫问题</strong>，<strong>折半查找，n皇后问题</strong></p>
+<h1 id="树">树</h1>
+<p>树是递归定义的</p>
+<h2 id="树的表示方法">树的表示方法</h2>
+<p>直观表示法</p>
+<p>形式化表示法T=(D,R),D为树T中结点的集合，R为树T中结点之间关系的集合</p>
+<p>凹入表示法（缩进表示法），可分为横向凹入表示和竖向凹入表示</p>
+<h2 id="树的存储结构">树的存储结构</h2>
+<p>双亲表示法，没有父节点就-1，有父节点就记下父节点编号。不便于寻找一个节点的孩子结点</p>
+<p>孩子表示法，用指针指向每一个孩子结点。</p>
+<p>双亲孩子表示法，一行里分别是data,parent的标号，head指针指向孩子结点（一个链表）。有空间重复用。</p>
+<p>孩子兄弟表示法，实际上是一颗二叉树，一个方框，左边指向子节点（或null），右边指向兄弟结点</p>
+<h2 id="二叉树">二叉树</h2>
+<p>不是有序树也不是无序树，只有一个子节点也要分左右结点。</p>
+<p>满二叉树是全都有东西，到一层。</p>
+<p>完全二叉树是按着满二叉树画出来的，可以少东西，但是不能跳着少。比如满二叉树是A-O，完全二叉树可以少O，少NO，少MNO。但是不能只少N而不少O。</p>
+<h2 id="二叉树性质">二叉树性质</h2>
+<figure data-type="image" tabindex="1"><img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE163007.png" alt="" loading="lazy"></figure>
+<h2 id="二叉树的存储">二叉树的存储</h2>
+<p>顺序存储，按顺序来。不完全二叉树需要先补齐，没有的结点按空算</p>
+<p>链式存储不用补齐，但难找父母结点。</p>
+<p>三叉链可以记上父母节点的信息</p>
+<p>仿真指针就是把父母，左右子的信息记到二维数组里</p>
+<h2 id="二叉树的遍历">二叉树的遍历</h2>
+<p>前序根左右，中序左根右，后序左右根</p>
+<p>前序加中序可唯一确定；中序加后序可唯一确定；前序加后序不能确定</p>
+<p>打印二叉树，特殊的中序遍历方法</p>
+<p><strong>非递归、递归的前中序遍历二叉树算法，游标类，层序游标类</strong></p>
+<h2 id="哈夫曼树">哈夫曼树</h2>
+<p>路径长度:从A到B结点经过的分支个数</p>
+<p>从二叉树的根节点到二叉树中所有叶节点的路径长度之和叫二叉树的路径长度</p>
+<p>具有最小的带权路径长度的二叉树称作哈夫曼树（最优二叉树）</p>
+<p>哈夫曼编码能保持译码的唯一性，为什么</p>
+<h2 id="转换">转换</h2>
+<p><strong>树转换为二叉树的方法是：</strong></p>
+<p>1、树中所有相同双亲结点的兄弟结点之间加一条连线。2、对树中不是双亲结点第一个孩子的结点，只保留新添加的该结点与左兄弟结点之间的连线，删去该结点与双亲结点之间的连线。3、整理所有保留的和添加的连线，使每个结点的第一个孩子结点连线位于左孩子指针位置，使每个结点的右兄弟结点连线位于右孩子指针位置。<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE170208.png" alt="" loading="lazy"></p>
+<p><strong>二叉树转为树</strong></p>
+<p>1、若某结点是其双亲结点的左孩子，则把该结点的右孩子、右孩子的右孩子……都与该结点的双亲结点用线连起来。2、删除原二叉树中所有双亲结点与右孩子结点的连线。3、整理所有保留的和添加的连线，使每个结点的所有孩子结点位于相同层次高度。</p>
+<figure data-type="image" tabindex="2"><img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE170526.png" alt="" loading="lazy"></figure>
+<h2 id="树的遍历">树的遍历</h2>
+<p>先根遍历,根，从左到右。和转换的二叉树的前序遍历相同</p>
+<p>后跟遍历，重做导游，根。和转换二叉树的中序遍历相同</p>
+<h1 id="图">图</h1>
+<p>图是由结点集合以及结点间的关系集合组成的一种数据结构，G=(V,E),V={x|x属于某个数据元素集合}，E={(x,y)|x,y属于V}或E={&lt;x,y&gt;|x,y属于V并有方向|}</p>
+<p>第k条边记作</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>e</mi><mi>k</mi></msub><mo>=</mo><mo>(</mo><msub><mi>v</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>v</mi><mi>j</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">{e_k} = ({v_i},{v_j})
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>有向图和无向图，(x,y)=&lt;x,y&gt;和&lt;y,x&gt;</p>
+<p><strong>完全图</strong>在n个结点无向图中有n(n-1)/2个边，在n个结点有向图中有n(n-1)个边</p>
+<p><strong>结点的度</strong>就是和它相关联的边的条数TD(v),有向图，结点的度等于该点的入度和出度之和TD(v)=ID(v)+OD(v)</p>
+<p>无向图就是TD=ID=OD</p>
+<p><strong>子图</strong>，定义像子集，V和E都要满足包含关系</p>
+<p><strong>连通图和强连通图</strong>：任意一对结点之间都有路径，就是连通图（无向的）/强连通图（有向的）</p>
+<p><strong>生成树</strong>：一个连通图的最小连通子图叫该图的生成树，有n个结点的连通图的生成树有n个结点和n-1条边</p>
+<p><strong>简单路径</strong>路径上各个结点互不重复</p>
+<h2 id="图的存储">图的存储</h2>
+<p><strong>邻接矩阵的写法，有路的1，没路的是0</strong><img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE192832.png" alt="" loading="lazy"><br>
+带权图的邻接矩阵，到自己0，到不了其他无穷<br>
+<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE193040.png" alt="" loading="lazy"><br>
+邻接表比邻接矩阵更省，因为很多时候是稀疏数组<br>
+<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE193253.png" alt="" loading="lazy"><br>
+逆邻接，邻接表的写法</p>
+<p>adj是头指针，dest开头为什么是s4？因为是从表头插入的，先插的1，即B，最后才插的4.如果是带权图，则单链表中加入一个cost，存储到他那个点的长度</p>
+<p>结点数目较小且边较多，用矩阵，当结点数目大且边的数目远小于完全图（同一种结点）的边数，用邻接表</p>
+<h2 id="java的final是什么">JAVA的final是什么</h2>
+<p>Java中，final 表示最终，也可以称为完结器，表示对象是最终形态的，不可改变的意思。<br>
+用途：final 应用于类、方法和变量时意义是不同的，但本质是一样的，都表示不可改变。<br>
+1）final 修饰变量，表示变量的值不可改变，此时该变量可被称为常量。<br>
+2）final 修饰方法，表示方法不能被子类重写；重写概念：子类中如果创建了一个与父类中相同名称、相同返回值类型、相同参数列表的方法，只是方法体中的实现不同，以实现不同于父类的功能，这种方式被称为方法重写，又称为方法覆盖。<br>
+3）final 用在类的前面表示该类不能有子类，即该类不可以被继承。</p>
+<h2 id="图的遍历">图的遍历</h2>
+<p>要考虑的：</p>
+<p>（1）算法的参数要指定访问的第一个顶点；</p>
+<p>（2）要考虑遍历路径可能出现的死循环问题；</p>
+<p>（3）要使一个顶点的所有邻接顶点按照某种次序被访问。</p>
+<h3 id="深度优先遍历">深度优先遍历</h3>
+<p>类似于树的先根遍历<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE201854.png" alt="" loading="lazy"></p>
+<p>采用回溯算法，若最后没东西了会一直回</p>
+<p>回溯：把递归放循环条件里，递归后再做出对条件判断变量的一个改变，这样会跳回来，改变东西的</p>
+<h3 id="广度优先遍历">广度优先遍历</h3>
+<p>类似于树的层序遍历<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE201905.png" alt="" loading="lazy"></p>
+<h3 id="非连通图的遍历">非连通图的遍历</h3>
+<p>要在所有结点都遍历一次</p>
+<h2 id="最小生成树">最小生成树</h2>
+<p>有n个顶点的连通图的生成树是原图的极小连通子图，它包含原图中的所有n个顶点，并且有保持图连通的最少的边。<br>
+（1）若在生成树中删除一条边就会使该生成树因变成非连通图而不再满足生成树的定义；<br>
+（2）若在生成树中增加一条边就会使该生成树中因存在回路而不再满足生成树的定义；<br>
+（3）一个连通图的生成树可能有许多；<br>
+（4）有n个顶点的无向连通图，无论它的生成树的形状如何，一定有且只有n-1条边。<br>
+关键在于最终树的边的权值总和最小，不是看路径的</p>
+<h3 id="prim普利姆算法">Prim普利姆算法</h3>
+<p>从某一点开始，不停地再找最小的边.时间复杂度O(n^2)，时间只与节点个数有关<br>
+设G=(V,E)是连通网，用T来记录G上最小生成树边的集合。<br>
+①算法开始时，U={1|1∈V}(选一个初始顶点)，T={ }；<br>
+②找到满足min{weight(u,v)|u∈U，v∈V-U}的边(ui,vi)，把它并入集合T中，同时vi并入U；<br>
+③反复执行b，直到U=V时终止算法。</p>
+<h3 id="kruskal克鲁斯卡尔算法">Kruskal克鲁斯卡尔算法</h3>
+<p>按照边的权值递增的顺序考察带权图G中的边集合E中的各条边，①若被考察的边的两个顶点属于T的两个不同的连通分量，则将此边加入到最小生成树T，同时把两个连通分量连接为一个连通分量；②若被考察的边的两个顶点属于T的同一个连通分量，则将此边舍去。如此下去，当T中的连通分量个数为1时，T中的该连通分量即为带权图G的一棵最小生成树</p>
+<p>O(elbe)只与权图中边的个数有关，与结点数无关。</p>
+<p>8-14</p>
+<h2 id="最短路径">最短路径</h2>
+<p><strong>路径长度</strong> :一条路径上所经过的边的数目</p>
+<p><strong>最短路径</strong>:(带权)路径长度(值)最小的那条路径</p>
+<p><strong>最短路径长度或最短距离</strong>:其(带权)路径长度</p>
+<p><strong>带权路径长度</strong>:路径上所经过边的权值之和</p>
+<h3 id="dijkastra狄克斯特拉算法">Dijkastra狄克斯特拉算法</h3>
+<p>按路径长度递增的顺序逐步产生最短路径，狄克斯特拉算法的思想是：设置两个顶点的集合S和T，集合S中存放已找到最短路径的顶点，集合T中存放当前还未找到最短路径的顶点。初始状态时，集合S中只包含源点，设为v0，然后从集合T中选择到源点v0路径长度最短的顶点u加入到集合S中，集合S中每加入一个新的顶点u都要修改源点v0到集合T中剩余顶点的当前最短路径长度值，集合T中各顶点的新的当前最短路径长度值，为原来的当前最短路径长度值与从源点过顶点u到达该顶点的路径长度中的较小者。此过程不断重复，直到集合T中的顶点全部加入到集合S 中为止。</p>
+<p>带权有向图，每对顶点之间的最短路径可通过调用狄克斯特拉算法实现。具体方法是：每次以不同的顶点作为源点，调用狄克斯特拉算法求出从该源点到其余顶点的最短路径。重复n次就可求出每对顶点之间的最短路径。由于狄克斯特拉算法的时间复杂度为O(n方)，所以这种算法的时间复杂度为O(n立方)。</p>
+<h3 id="floyd算法">FLoyd算法</h3>
+<p>应该不考,回头再学</p>
+<h3 id="关键路径">关键路径</h3>
+<p>AOE网（边表示活动的网）--有向带权图。完成整个工程需要多少时间，哪些活动是影响工程进度的关键</p>
+<p>意思是把最复杂的一个步骤给最简单化</p>
+<h3 id="补充算法">补充算法</h3>
+<p>图的着色问题，戈尼斯堡七桥，哈密尔顿环，货郎担（旅行商）问题，子集和数问题，背包问题</p>
+<h1 id="排序">排序</h1>
+<p>主关键字：能够唯一区分各个不同数据元素的关键字</p>
+<p>次关键字：不满足主关键字定义的关键字称为次关键字</p>
+<p>内/外部排序:把所有数放到内存里排序叫内部排序</p>
+<p>稳定的排序算法：按次关键字排序，结果也一样的排序算法</p>
+<figure data-type="image" tabindex="3"><img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/QQ%E5%9B%BE%E7%89%8720221106160849.png" alt="" loading="lazy"></figure>
+<h2 id="插入排序">插入排序</h2>
+<p>直接插入：不断地把新数据插入到已经排好的集合中合适位置上</p>
+<p>希尔排序：一个隔一个或隔几个地分组，组里排序，6.3.1，4.2.1，反正必须是1，不然排炸了</p>
+<h2 id="选择排序">选择排序</h2>
+<p>直接选择：选最小的放第一个，第二小的放第二个.....</p>
+<h3 id="最大堆">最大堆</h3>
+<p>下标从0开始,2i+1&lt;n时开始有a[i]大于等于a[2i+1],当2i+2&lt;n时有a[i]大于等于a[2i+2]</p>
+<p>按<strong>完全</strong>二叉树的形式存储最大堆<img src="https://wels.oss-cn-hangzhou.aliyuncs.com/md/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE174704.png" alt="" loading="lazy"></p>
+<p>堆排序的基本思想是：循环执行如下过程直到数组为空：<br>
+（1）把堆顶a[0]（可以是数组）元素（为最大元素）和当前最大堆的最后一个元素交换；<br>
+（2）最大堆元素个数减1；<br>
+（3）由于第（1）步后根结点不再满足最大堆的定义，所以调整根结点使之满足最大堆的定义。</p>
+<p>调整？实际上是去掉最大的和最小的一个后在创建一个新的最大堆，只去掉最大的元素，最小的留着。</p>
+<h2 id="交换排序">交换排序</h2>
+<h3 id="冒泡">冒泡</h3>
+<p>每趟不断将记录两两比较，并按“前小后大”（或“前大后小”）规则交换。</p>
+<h3 id="快速">快速</h3>
+<p>从待排序列中任取一个元素 (例如取第一个) 作为中心，所有比它小的元素一律前放，所有比它大的元素一律后放，形成左右两个子表；然后再对各子表重新选择中心元素并依此规则调整，直到每个子表的元素只剩一个。此时便为有序序列了。</p>
+<h2 id="归并排序">归并排序</h2>
+<p>归并排序主要是二路归并排序,基本思想是：可以把一个长度为n 的无序序列看成是 n 个长度为 1 的有序子序列 ，首先做两两归并，得到 n / 2个（向上取整）长度为 2 的有序子序列 ；再做两两归并，…，如此重复，直到最后得到一个长度为 n 的有序序列。<br>
+归并排序的算法思想是：<br>
+① 将n个记录看成是n个长度为1的有序子表；<br>
+② 将两两相邻的有序子表进行归并，若子表数为奇数，则留下的一个子表直接进入下一次归并；<br>
+③ 重复步骤(2)，直到归并成一个长度为n的有序表。<br>
+3分<br>
+归并排序的时间复杂性是：O(nlog2n)<br>
+归并排序的空间复杂性是：O(n)<br>
+归并排序时稳定的。<br>
+优点是排序速度快，稳定，缺点是空间复杂性最大。               2分</p>
+<h2 id="基数排序桶排序">基数排序（桶排序）</h2>
+<p>设待排序的数据元素关键字是m位d进制整数（不足m位的关键字在高位补0），设置d个桶，令其编号分别为0,1,2,…,d-1。首先按关键字最低位的数值依次把各数据元素放到相应的桶中，然后按照桶号从小到大和进入桶中数据元素的先后次序收集分配在各桶中的数据元素，这样就形成了数据元素集合的一个新的排列，我们称这样的一次排序过程为一次基数排序；再对一次基数排序得到的数据元素序列按关键字次低位的数值依次把各数据元素放到相应的桶中，然后按照桶号从小到大和进入桶中数据元素的先后次序收集分配在各桶中的数据元素；这样的过程重复进行，当完成了第m次基数排序后，就得到了排好序的数据元素序列。</p>
+<h1 id="查找">查找</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>无序序列</th>
+<th>有序序列顺序查找</th>
+<th>二分查找</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>成功</td>
+<td>(n+1)/2</td>
+<td>(n+1)/2</td>
+<td>lbn</td>
+</tr>
+<tr>
+<td>失败</td>
+<td>n</td>
+<td>(n+1)/2</td>
+<td>lb(n+1)</td>
+</tr>
+</tbody>
+</table>
+<p>主表：把要在其上建立索引的数据元素序列叫主表，主表保存所有信息，索引保存关键字和索引信息</p>
+<p>二分查找必须顺序存储数据（非链式，有序）</p>
+<h2 id="二叉排序树">二叉排序树</h2>
+<p>三叉链结点</p>
+<p>性能分析：成功ASL=lb(n+1),最大（即只剩一条链的二叉排序树,左子树上啥也没有），ASL=n</p>
+<h1 id="哈希表">哈希表</h1>
+<p>哈希表主要是构造一个映射函数，该函数以数据元素为自变量，函数值即为数据元素在内存中的存储位置。通常把这样的映射函数称为哈希函数h(x)。<br>
+因此可以说，哈希表是通过哈希函数h(x)来确定数据元素x存放位置h(x)的一种特殊存储结构。</p>
+<p><strong>构造方法是</strong>：设要存储的数据元素个数为n，设置一个长度为m（m≥n）的连续内存单元（即数组），分别以每个数据元素的关键字Ki为（0≤i≤n-1）为自变量，通过哈希函数h(Ki)，把Ki映射为内存单元的某个地址h(Ki)，并把该数据元素存储在这个内存单元中。哈希函数h(Ki)实际上是关键字Ki到内存单元的映射，因此，h(Ki)也称为哈希地址，哈希表也称作散列表。</p>
+<p>构造哈希表时出现Ki≠Kj（i≠j）,但h(Ki)=h(Kj)的现象称作<strong>哈希冲突</strong>。这种具有不同关键字而具有相同哈希地址的数据元素称作“同义词”，由同义词引起的冲突称作同义词冲突。</p>
+<p>解决哈希冲突的基本思想是通过哈希冲突函数（设为hl(K)（l=1,2,…,m-1））产生一个新的哈希地址使hl(Ki)≠hl(Kj)。哈希冲突函数通常是一组。<br>
+把要存储的n个数据元素通过哈希函数（或哈希冲突函数）映射到了m个连续内存单元中，从而完成哈希表的构造。<br>
+可见，构造哈希表时一定要使用主关键字，不能使用次关键字。</p>
+<h2 id="解决冲突方法">解决冲突方法</h2>
+<p>构造哈希表时 ，冲突是不可避免的，有关因素主要有如下三个：<br>
+(1)<strong>装填因子</strong>。装填因子是指哈希表中要存入的数据元素个数ｎ与哈希地址空间大小ｍ的比值，即α＝ｎ/ｍ，α越小，冲突的可能性就越小，但哈希表中空闲单元的比例就越大； α越大（最大可取1）时，冲突的可能性就越大，但哈希表中空闲单元的比例就越小，存储空间的利用率就越高。通常α在0.6~0.9范围内，默认取0.75。<br>
+(2)与所采用的哈希函数有关。<br>
+(3)与解决哈希冲突的哈希冲突函数有关。</p>
+<h3 id="哈希函数构造方法">哈希函数构造方法</h3>
+<h4 id="除留余数法">除留余数法</h4>
+<p>h(K)=K mod m</p>
+<p>计算简单，适用范围广，关键在于<strong>选好哈希表长度m，m取素数时最好</strong></p>
+<h4 id="直接定址法">直接定址法</h4>
+<p>h(K)=K+C</p>
+<p>有可能浪费</p>
+<h4 id="数字分析法">数字分析法</h4>
+<p>取数据元素关键字中某些取值较均匀的数字位作为哈希地址，只适合于所有关键字值已知的情况</p>
+<h3 id="哈希冲突解决方法">哈希冲突解决方法</h3>
+<h4 id="开放定址法">开放定址法</h4>
+<p>开放定址法以发生哈希冲突的哈希地址为自变量、通过某种哈希冲突函数得到一个新的空闲的内存单元地址。哈希冲突函数通常是一组。<br>
+开放定址法中，哈希表中的空闲单元（如数组下标d)不仅允许哈希地址为d的同义词数据元素使用，而且允许发生冲突的其他数据元素使用。因为这些数据元素的哈希地址不为d，所以称为非同义词关键字。<br>
+非同义词冲突</p>
+<p><strong>线性勘察法</strong></p>
+<p>优点：只要哈希表未被填满，保证能找到一个空地址单元存放有冲突的元素；<br>
+缺点：容易产生“堆积” ，大大降低了查找效率。</p>
+<p><strong>平方勘察法</strong></p>
+<p>跨步很大，可以避免堆积</p>
+<p><strong>伪随机数法</strong></p>
+<p>跨步随机，避免堆积</p>
+<h4 id="链表法">链表法</h4>
+<p>基本思想：如果没有发生哈希冲突，则直接存放该数据元素；如果发生了哈希冲突，则把发生哈希冲突的数据元素另外存放在单链表中。</p>
+<p>方法有两种：第一种方法是为发生哈希冲突的不同的同义词建立不同的单链表;第二种方法是为发生哈希冲突的所有同义词建立一个单链表。</p>
+<p>哈希表的存储结构是：<strong>1</strong>顺序存储结构（采用开放地址法解决哈希冲突）；<strong>2</strong>或者顺序存储结构+链式存储结构（采用链表法解决哈希冲突）</p>
+
+							</div>
+	<div class="wow bounceInDown vt-post-tags">
+ 
+				<a href="https://derwels.github.io/tag/Y2az0tBjI/" rel="tag">for_exam</a>	
+				 
+					</div>						
+<nav class="navigation3 post-navigation3" role="navigation">
+		
+		<div class="nav-links3">
+      
+		 
+		<div class="wow bounceInRight nav-next3"><a href="https://derwels.github.io/post/typora-de-ji-xu-shi-yong/" rel="next"> Typora的继续使用</a></div>
+		
+		</div>
+	</nav>
+	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
+	<div class="author-avatar pull-left"><img src="https://derwels.github.io/images/avatar.png" ></div>
+ 
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author">wels</div></div>
+
+
+		</div>
+		
+ 
+		
+</article>
+
+<div id="marlin_lite_about_widget-2" class="wow bounceInUp widget marlin_lite_about_widget" data-wow-delay="0.1s">
+		
+        
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://derwels.github.io/media/scripts/Valine.min.js'></script>
+
+<div class="comment"></div>
+<script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment',
+            lang: 'zh-cn',
+            
+            
+      emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+     	
+      	
+          
+        });
+    </script> 
+
+
+   
+  
+ 
+
+		</div>
+
+			</div>
+			
+
+
+<div class="tocc col l3 hide-on-med-and-down">
+	
+        <div class="toc-widget">
+			
+            <div class="toc-title"></div>
+			
+            <div id="toc-content">
+			
+			
+			</div>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.5.0/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '.entry-summary',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('.entry-summary').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>										 
+
+ 
+       
+
+
+			</div>
+		</div>
+
+		
+		 	<footer id="colophon" class="site-footer">
+
+			<div class="container">
+	
+				<div class="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a><br>Theme:   <a href="https://github.com/alterfang/gridea-theme-pan" target="_blank" title="Pan"><span>Pan</span></a>. Powered by <a href="https://gridea.dev/" target="_blank" title="Gridea"><span>Gridea</span></a></div>		
+			</div>
+		
+		</footer>
+
+</div>
+
+<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script type='text/javascript' src='https://derwels.github.io/media/scripts/marlin-scripts.js'></script>
+ <script src="//tokinx.github.io/lately/lately.min.js"></script>
+  <script>jQuery(document).ready(function(){$.lately({'target':'.lately-a,.lately-b,.lately-c'})});</script>
+  <style type="text/css">a.back_to_top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #f0f0f0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: .5s;
+    transition-propety: background-color;
+    display: none;
+}
+
+a.back_to_top span {
+    color: #888;
+}
+
+a.back_to_top:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+}
+
+a.back_to_top:hover span {
+    color: #555;
+}
+
+@media print, screen and (max-width: 580px) {
+    .back_to_top {
+        display: none !important;
+    }
+}
+
+
+
+</style><a id="back_to_top" href="#" class="back_to_top"><span><i class="iconfont icon-xiangshang"></i></span>
+</a>
+
+
+<script>$(document).ready((function(_this) {
+  return function() {
+    var bt;
+    bt = $('#back_to_top');
+    if ($(document).width() > 480) {
+      $(window).scroll(function() {
+        var st;
+        st = $(window).scrollTop();
+        if (st > 30) {
+          return bt.css('display', 'block');
+        } else {
+          return bt.css('display', 'none');
+        }
+      });
+      return bt.click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    }
+  };
+})(this));
+</script>
+
+		<script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $('.navigation:eq(0)').remove();
+                $("").attr("rel" , "external");
+                $("a[rel='external'],a[rel='external nofollow']").attr("target","_blank");
+                $("a.vi").attr("rel" , "");
+                $.viewImage({
+                    'target'  : 'img',
+                    'exclude' : '.vsmile-icons img,.gallery img',
+                    'delay'   : 300
+                });
+                $.lately({
+                    'target' : '.commentmetadata a,.infos time,.post-list time'
+                });
+                prettyPrint();
+                
+                $('ul.links li a').each(function(){
+                    if($(this).parent().find('.bg').length==0){
+                        $(this).parent().append('<!---<div class="bg" style="background-image:url(https://c3.glgoo.top/s2/favicons?domain='+$(this).attr("href")+')"></div>--->')
+                    }
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
+
+</body>
+</html>
